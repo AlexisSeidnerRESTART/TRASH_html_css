@@ -1,0 +1,167 @@
+body{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 50px;
+}
+
+h1{padding-left: 300px;
+    font-size: 5em;
+    font-family: 'Tilt Warp', cursive;
+    color: blueviolet;
+
+}
+
+h2{
+    font-size: 3em;
+    font-family: 'Tilt Warp', cursive;
+    color: blueviolet;
+    padding-left: 200px;
+}
+
+h3{
+    font-size: 3em;
+    font-family: 'Tilt Warp', cursive;
+    color: blueviolet;
+    padding-left: 150px;
+}
+
+p{
+    font-size: 3em;
+    font-family: 'Tilt Warp', cursive;
+}
+
+div:hover {
+    background-color: blueviolet;
+}
+
+aside:hover {
+    background-color: blueviolet;
+}
+
+div:hover h2{
+    color: rgb(255, 254, 254);
+
+}
+
+aside:hover h2{
+    color: rgb(255, 254, 254);
+
+}
+
+.logo{
+    display: flex;
+    size: 20px;
+    padding-left: 100px;
+}
+
+p{
+    padding-left: 130px;
+}
+
+
+header{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    border: 7px solid rgb(0, 0, 0)
+    
+}
+
+div{ 
+    background-color: white;
+    margin-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    border: 7px solid black
+
+}
+
+aside{
+
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    border: 7px solid black
+}
+
+footer{
+    
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    border: 7px solid black
+    
+}
+
+main{
+    display: flex;
+    flex-basis: 200px;
+}
+
+@media (max-width: 700px) {
+   header{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+   }
+    h1{
+        justify-content: center;
+        font-size: 4em;
+        padding-right: 320px;
+
+   }
+   h2{
+    font-size: 3em;
+    padding-left: 150px;
+   }
+   h3{
+    padding-left: 35px;
+   }
+   p{
+    font-size: 4em;
+    padding-right: 120px;
+   }
+   .logo{
+    size: 50px;
+    padding-right: 100px;
+   }
+   main{
+    display: flex;
+    flex-direction: column;
+   }
+
+
+
+   div{
+    width: 600px;
+   }
+   
+   aside{
+    width: 600px;
+    margin-top: none;
+   }
+   
+   footer{
+    flex-direction: column;
+    width: 600px;
+}
+body{
+    max-width: 700px;
+
+}
+
+
+}
